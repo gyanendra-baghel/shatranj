@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shataranj</title>
+    <script src="../dist/shataranj.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        min-width: 100vh;
+        background-color: #191919;
+      }
+      #chess-board {
+        display: flex;
+        flex-direction: column;
+        background-color: #000;
+        color: #fff;
+        padding: 3px;
+        border-radius: 1rem;
+      }
+      .timer1,
+      .timer2 {
+        margin: 5px;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="chess-board"></div>
+    <script>
+      const game = new Shataranj("chess-board", 600);
+      game.init(600); // time in seconds
+    </script>
+  </body>
+</html>
