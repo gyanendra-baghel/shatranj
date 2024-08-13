@@ -1,6 +1,6 @@
 {
   "name": "shataranj",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shatranj is a classical game.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
