@@ -1,8 +1,9 @@
 {
   "name": "shataranj",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shatranj is a classical game.",
-  "main": "dist/shataranj.min.js",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "build": "webpack",
     "test": "jest"
